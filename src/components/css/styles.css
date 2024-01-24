@@ -1,0 +1,257 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+.ordenList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .ElementOrder {
+    margin: 0 10px;
+    position: relative;
+    color: white; 
+    cursor: pointer; 
+  }
+
+  .ImgDimensions {
+    width: 100px;
+  }
+
+  .flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bgNavbar {
+    background-color:#1d252c;
+  }
+
+  .withSubMenu:hover .subMenu {
+    display: block;
+  }
+
+  .subMenu {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    display: none; 
+    position: absolute;
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+  }
+  
+  .decoracion{
+    color: inherit; 
+    text-decoration: none;
+  }
+  .subMenu div {
+    padding: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    box-sizing: border-box; 
+  }
+  
+  .subMenu div:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+  }
+
+  .backImg{
+    overflow: auto;
+    background-image: url('../img/jostick.png') ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+   }
+
+  /*  border:1px solid red;*/
+
+  /* body */
+
+  .carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .centrarDiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slick-list {
+    overflow: hidden;
+  }
+  
+  /* carro de compras */
+
+
+  .carrito {
+    position: relative;
+    margin-right: 50px;
+    color: aliceblue;
+  }
+  
+  
+  .numeroCarrito {
+    position: absolute;
+    top: -14px; 
+    right: -12px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0.1em 0.4em;
+  }
+  
+  
+/* productos */
+
+.product-item:hover {
+background-color: #6f7f8b60;
+}
+
+.product-list {
+  padding: 20px;
+  width: 50%;
+  margin-top: 10px;
+ 
+}
+
+.product-item {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+  
+}
+
+.product-image img {
+  width: 170px; 
+  height: 112px; 
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+
+.product-details {
+  flex: 1;
+}
+
+.product-details h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.product-details p {
+  margin: 0;
+  color: #d3d3d3;
+  
+}
+
+.product-price p {
+  font-weight: bold;
+  color: #00da00; 
+}
+
+.product-title {
+  color: #f8f8f8;
+}
+
+.product-price{
+  display: flex;
+  align-items: center;
+}
+
+/* inicio */
+
+.backcolor {
+  background-color: #30394b;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.backDato {
+  background-color: #4e7bd634;
+  width: 94%;
+  height: 75%;
+  border-radius: 20px;
+}
+
+.fontLetra {
+  font-size: 50px;
+  color: #d3d3d3;
+}
+
+.BackDatoDiv {
+  text-align: center;
+  display: flex; 
+  justify-content: space-between; 
+  margin-top: 70px;
+}
+
+.contenido {
+  width: 50%; 
+  margin-top: 130px;
+}
+
+.Subtex {
+  font-size: 15px;
+  color: #adadad;
+}
+
+.Descripcion {
+  align-items: center;
+  text-align: center;
+}
+
+.imagenContenedor {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.tuClaseDeEstilo {
+  max-width: 100%;
+}
+
+.boton{
+  margin-top: 20px;
+  width: 180px;
+  height: 70px;
+  border-radius: 40px;
+  background-color: #c4ac89;
+  border: 1px solid #ffffff;
+  color: #364668;
+  font-size: 27px;
+  cursor: pointer;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.boton:hover {
+  color: #c4ac89;
+  background-color: #364668;
+}
